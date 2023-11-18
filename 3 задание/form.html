@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Сайт ученика группы С-23.152 Завьялова Никиты</title>
+</head>
+<body>
+    <header>
+        <h1>Сайт ученика группы С-23.152 Завьялова Никиты</h1>
+    </header>
+
+    <nav>
+        <a href="https://natk.ru/" target="_blank">НАТК</a>
+        <a href="form.html" download>Анкета</a>
+        <a href="https://natk.ru/" target="_blank">
+            <img src="button.png" alt="Кнопка мечты" width="200" height="50">
+        </a>
+    </nav>
+
+    <main>
+        <form action="#" method="get" enctype="multipart/form-data">
+            <h2>Анкета</h2>
+
+            <label for="userName">Укажите Ваше имя:
+                <input type="text" id="userName" name="userName" placeholder="Введите Ваше имя" required>
+            </label><br>
+
+            <label for="userSurname">Укажите Вашу фамилию:
+                <input type="text" id="userSurname" name="userSurname" placeholder="Введите Вашу фамилию">
+            </label><br>
+
+            <label for="userPassword">Введите пароль:
+                <input type="password" id="userPassword" name="userPassword" placeholder="Введите пароль">
+            </label><br>
+
+            <label for="aboutMe">Пару слов о себе:
+                <textarea id="aboutMe" name="aboutMe" rows="4" cols="50" placeholder="Расскажите о себе"></textarea><br>
+            </label>
+
+            <input type="checkbox" id="question" name="question" checked>
+            <label for="question">Вы студент?</label><br>
+
+            <p>Где ты учишься?</p>
+            <label>
+                <input type="radio" name="eduorg" value="school">
+                Школа
+            </label><br>
+            <label>
+                <input type="radio" name="eduorg" value="college">
+                Колледж
+            </label><br>
+            <label>
+                <input type="radio" name="eduorg" value="university">
+                Университет
+            </label><br>
+
+            <p>
+                <label for="birthYear">Ваш год рождения?</label>
+                <select id="birthYear" name="bdyear" placeholder="Выберите год рождения">
+                    <option value="2002">2002</option>
+                    <option value="2003">2003</option>
+                    <option value="2004">2004</option>
+                    <option value="2005">2005</option>
+                    <option value="2006">2006</option>
+                </select>
+            </p>
+
+            <label for="profilepic">Добавьте Ваше фото:
+                <input type="file" id="profilepic" name="profilepic" placeholder="Выберите файл">
+            </label><br>
+
+            <label for="hiddenField" hidden>Скрытое поле:</label>
+            <input type="hidden" id="hiddenField" name="hiddenField" value="hiddenValue">
+
+            <label for="endDate">Дата окончания обучения:
+                <input type="date" id="endDate" name="endDate">
+            </label><br>
+
+            <label for="phoneNumber">Твой номер телефона:
+                <input type="tel" id="phoneNumber" name="phoneNumber" placeholder="Введите номер телефона">
+            </label><br>
+
+            <label for="email">Ваша личная почта:
+                <input type="email" id="email" name="email" placeholder="Введите Вашу почту">
+            </label><br>
+
+            <label for="favoriteSite">Ваш любимый сайт:
+                <input type="url" id="favoriteSite" name="favoriteSite" placeholder="Введите адрес сайта">
+            </label><br>
+
+            <input type="submit" value="Отправить">
+
+            <input type="reset" value="Сбросить">
+
+        </form>
+    </main>
+
+    <footer>
+        <p>&#0169; Завьялов Н.С</p>
+    </footer>
+</body>
+</html>

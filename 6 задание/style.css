@@ -1,0 +1,17 @@
+* {
+    border: 1px solid red;
+  }
+  
+  .page-header {
+    padding: 10px 20px; 
+  }
+  
+  ul.features-list {
+    margin-top: 0; 
+    margin-bottom: 0; 
+    padding: 20px; 
+  }
+  footer {
+    padding: 20px; 
+  }
+    

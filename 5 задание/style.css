@@ -1,0 +1,32 @@
+.target li {
+    background-color: white;
+  }
+  
+  .hit {
+    background-color: white;
+  }
+  
+  .miss {
+    background-color: red;
+  }
+  
+  .shooter-1 .first, .shooter-1 .second, .shooter-1 .fourth {
+    background-color: white;
+  }
+  
+  .shooter-2 .first, .shooter-2 .fifth {
+    background-color: white;
+  }
+  
+  .target li:last-child {
+    background-color: white;
+  }
+  
+  .target li:nth-child(3) {
+    background-color: yellow;
+  }
+  
+  .target li:hover {
+    background-color: lightgray;
+  }
+  

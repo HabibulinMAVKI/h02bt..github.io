@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form action="#" method="get">
+        <h1>Заявка на принятие в команду</h1>
+
+        <label for="name">Имя:</label>
+        <input type="text" id="name" name="name" required placeholder="Введите имя">
+
+        <label for="email">Почта:</label>
+        <input type="email" id="email" name="email" required placeholder="example@somemail.xxx">
+
+        <label for="password">Пароль:</label>
+        <input type="password" id="password" name="password" required minlength="8" placeholder=">8 символов">
+
+        <label for="phone">Телефон:</label>
+        <input type="tel" id="phone" name="phone" pattern="8-[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}" required placeholder="8-***-***-**-**">
+
+        <div>
+            <label>Пол:</label>
+            <label><input type="radio" name="gender" value="male" required> Мужской</label>
+            <label><input type="radio" name="gender" value="female" required> Женский</label>
+        </div>
+
+        <div>
+            <label>Имею скилл:</label>
+            <label><input type="checkbox" name="skill" value="CS" required> CS</label>
+            <label><input type="checkbox" name="skill" value="dota" required> Dota</label>
+            <label><input type="checkbox" name="skill" value="overwatch" disabled> Overwatch</label>
+        </div>
+
+        <label for="aboutMe">Кратко о себе:</label>
+        <textarea id="aboutMe" name="aboutMe" rows="5" cols="50" required placeholder="Кратко о себе"></textarea>
+
+        <label for="photo">Прикрепи фото:</label>
+        <input type="file" id="photo" name="photo" disabled>
+
+        <label for="computer">Играешь на своем компе:</label>
+        <select id="computer" name="computer" required>
+            <option value="home">Да, только из дома</option>
+            <option value="external">Нет, могу на вашем</option>
+            <option value="anywhere" selected>Да, ноут могу играть откуда угодно</option>
+        </select>
+
+        <div>
+            <input type="submit" value="Отправить">
+            <input type="reset" value="Сбросить">
+        </div>
+    </form>
+</body>
+</html>

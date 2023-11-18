@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Испытание: интерактивное расследование</title>
+    <link rel="stylesheet" href="challenge.css" />
+    <link rel="stylesheet" href="style.css" />
+
+    <style>
+        .results {
+          background-color: #dad7f4;
+        }
+  
+        td.player-1.total {
+          background-color: grey;
+        }
+  
+        td.player-2.total {
+          background-color: gold;
+        }
+  
+        td.player-3.total {
+          background-color: red;
+        }
+  
+        td.player-4.total {
+          background-color: chocolate;
+        }
+      </style>
+      
+  </head>
+  <body>
+    <span class="results">Результаты соревнования</span>
+    <table>
+      <tr>
+        <td class="results">Игрок</td>
+        <td class="results">Раунд 1</td>
+        <td class="results">Раунд 2</td>
+        <td class="results">Раунд 3</td>
+        <td class="results">Итог</td>
+      </tr>
+      <tr>
+        <td>Игорь Иванов</td>
+        <td>10</td>
+        <td>-20</td>
+        <td>30</td>
+        <td class="player-1 total">20</td>
+      </tr>
+      <tr>
+        <td>Федор Свердлов</td>
+        <td>50</td>
+        <td>10</td>
+        <td>-30</td>
+        <td class="player-2 total">30</td>
+      </tr>
+      <tr>
+        <td class="disqualified">Василий Смирнов</td>
+        <td class="disqualified">50</td>
+        <td class="disqualified">50</td>
+        <td class="disqualified">50</td>
+        <td class="player-3 total disqualified">-150</td>
+      </tr>
+      <tr>
+        <td>Иван Киселев</td>
+        <td>-10</td>
+        <td>-20</td>
+        <td>40</td>
+        <td class="player-4 total">10</td>
+      </tr>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+}
+
+ul {
+  margin: 0 auto;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 5px; 
+  column-gap: 15px; 
+}
+
+.page-header {
+  padding: 10px 20px 10px 10px;
+  display: grid;
+  grid-template-columns: 100px 400px;
+  justify-content: center;
+  align-items: center;
+}
+
+.features-list {
+  display: grid;
+  grid-template-columns: 2fr 1fr; 
+  gap: 10px; /
+}
+
+ul.features-list {
+  margin-top: 0; 
+  margin-bottom: 0; 
+  padding: 20px; 
+}
+footer {
+  padding: 20px; 
+}

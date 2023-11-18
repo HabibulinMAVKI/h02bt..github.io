@@ -1,0 +1,15 @@
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: column; 
+  width: 50%; 
+  margin: 0 auto; 
+}
+
+
+nav > *:nth-child(6) {
+  flex: 1 1 50%; 
+  color: red;
+}
